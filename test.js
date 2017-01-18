@@ -65,6 +65,7 @@ var myFunction = alice.cansarse();
 
 */
 
+/*
 
 var prueba = {
 
@@ -81,4 +82,73 @@ var alice = {
 }
 
 var myFunction = alice.saludar;
-myFunction.call(prueba,'juan','pedro');
+myFunction.call(prueba,'juan','pedro');*/
+
+/*
+
+sayHi();
+var sayHi = function(){
+    alert('Hi!');
+};
+
+*/
+
+
+/*
+
+function createFunctions(){
+    var result = new Array();
+
+    for (var i=0; i<10;i++){
+        result[i] = function(num){
+            return function(){
+                return num;
+            };
+        }(i);
+    }
+
+
+}
+
+createFunctions();
+
+*/
+
+/*
+
+document.title = 'Hemos cambiado el titulo de la pagina';
+
+document.write(document.title);
+
+*/
+
+/*
+
+
+var book = {
+
+    "title": "Professional JavaScript",
+    "authors": ["Nicholas C. Zakas"],
+    edition: 3,
+    year: 2011
+};
+
+var jsonText = JSON.stringify(book, ["title","edition"]);
+
+*/
+
+//test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
